@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Framework -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="page d-flex">
+      <!-- ^ Start sidebar -->
+      <div class="sidebar bg-white p-20 box-sh p-fixed h-full">
+        <h3
+          class="c-1 txt-tm-up txt-c mb-20 fs-40 p-relative mq-s-mt-20 mq-s-fs-15"
+        >
+          aim
+        </h3>
+        <ul class="list-none p-0 txt-tm-c c-black">
+          <li>
+            <a
+              class="d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-c c-black rad-6 p-10 mb-10 mq-s-d-c tn-05"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fs-20"></i>
+              <span class="ml-10 mq-s-hide fs-15">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- ^ End sidebar -->
+      <div class="content w-full of-h">
+        <!-- & Start Head -->
+        <div
+          class="head bg-white pl-270 mq-s-pl-72 p-20 mq-s-p-10 between-flex box-sh"
+        >
+          <div class="search p-relative">
+            <input
+              class="w-130 p-10 pl-30 bd-1-eee rad-10 tn-05"
+              type="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-c gap-10">
+            <span class="p-relative notification">
+              <i class="fa-regular fa-bell fa-2xl"></i>
+            </span>
+            <img class="w-30" src="imgs/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- & End Head -->
+        <h1
+          class="ml-270 mq-s-ml-72 fs-40 mq-s-fs-30 c-black mt-30 mb-50 p-relative txt-tm-c"
+        >
+          plans
+        </h1>
+        <div
+          class="plans-page d-grid grid-450 mobile-grid gap-20 pl-270 mq-s-pl-72 p-20 mq-s-p-10"
+        >
+          <div class="plan rad-6 green box-sh bg-white p-20">
+            <div class="top d-flex f-column align-c bg-4 txt-c p-20">
+              <h2 class="m-0 fs-15 c-white">Free</h2>
+              <div class="price fs-40 p-relative c-white">
+                <span class="">$</span>0.00
+              </div>
+            </div>
+            <ul class="list-none mb-20">
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Text Lessons</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Videos Lessons</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Appear On Leaderboard</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">Browse Content Without Ads</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">Access All Assignments</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">Get Daily Prizes</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">Earn Certificate</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">1 GB Space For Hosting Files</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">Access Badge System</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="btn-shape bg-4 mr-auto c-white d-block w-fit mr-auto"
+              >Join</a
+            >
+          </div>
+          <div class="plan rad-6 blue box-sh bg-white p-20">
+            <div class="top d-flex f-column align-c bg-1 txt-c p-20">
+              <h2 class="m-0 fs-15 c-white">Basic</h2>
+              <div class="price fs-40 p-relative c-white">
+                <span class="">$</span>7.99
+              </div>
+            </div>
+            <ul class="list-none mb-20">
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Text Lessons</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Videos Lessons</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Appear On Leaderboard</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Browse Content Without Ads</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Assignments</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Get Daily Prizes</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Earn Certificate</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">1 GB Space For Hosting Files</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-xmark c-3 fa-fw mr-5"></i>
+                <span class="fs-15">Access Badge System</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="visit btn-shape bg-1 mr-auto c-white d-block w-fit mr-auto"
+              >Join</a
+            >
+          </div>
+          <div class="plan rad-6 orange box-sh bg-white p-20">
+            <div class="top d-flex f-column align-c bg-3 txt-c p-20">
+              <h2 class="m-0 fs-15 c-white">Premium</h2>
+              <div class="price fs-40 p-relative c-white">
+                <span class="">$</span>19.99
+              </div>
+            </div>
+            <ul class="list-none mb-20">
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Text Lessons</span>
+                <i class="fa-solid fa-circle-info help fs-15 fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Videos Lessons</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Appear On Leaderboard</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Browse Content Without Ads</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access All Assignments</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Get Daily Prizes</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Earn Certificate</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">1 GB Space For Hosting Files</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+              <li class="bdt-1-eee d-flex align-c pt-20 pb-20">
+                <i class="fa-solid fa-check fa-fw mr-5 yes c-4"></i>
+                <span class="fs-15">Access Badge System</span>
+                <i class="fa-solid fa-circle-info help fs-15 ml-auto"></i>
+              </li>
+            </ul>
+            <p class="c-grey fs-20 m-0 txt-c">This Is Your Current Plan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
