@@ -430,8 +430,8 @@ h1:hover::after {
     font-weight: 900;
     background-color: var(--main-c);
     color: var(--bg-white);
-	width: 16px;
-    height: 16px;
+	width: 18px;
+    height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -475,10 +475,10 @@ h1:hover::after {
     outline-color: var(--main-alt-c);
 }
 .backup .managers .date .control label::after {
-    left: -7.5px;
+    left: -7px;
     background-color: var(--main-c);
-	width: 13px;
-    height: 13px;
+	width: 14px;
+    height: 14px;
 	scale: 0;
 }
 .backup .managers .date .control input[type="radio"]:checked + label::before {
