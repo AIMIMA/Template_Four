@@ -472,7 +472,7 @@ h1:hover::after {
 	-o-border-radius: var(--rad-half);
 }
 .backup .managers .date .control label::before {
-    left: -11px;
+    left: -10px;
     width: 18px;
     height: 18px;
     border: 2px solid var(--bg-white);
@@ -482,11 +482,16 @@ h1:hover::after {
     outline-color: var(--main-alt-c);
 }
 .backup .managers .date .control label::after {
-    left: -7.5px;
+    left: -7px;
     background-color: var(--main-c);
-	width: 14px;
+    width: 14px;
     height: 14px;
-	scale: 0;
+    scale: 0;
+}
+@media (max-width: 767px) {
+    .backup .managers .date .control label::after {
+	left: -6px;
+    }
 }
 .backup .managers .date .control input[type="radio"]:checked + label::before {
     outline-color: var(--main-c);
@@ -649,7 +654,7 @@ h1:hover::after {
     top: 0;
 }
 .plans-page .plan ul li span {
-    max-width: 200.5px;
+    max-width: 202px;
 }
 .plan .top .price span, .plan ul li i:first-child {
     font-size: 25px;
